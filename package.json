@@ -1,0 +1,32 @@
+{
+  "name": "stack-deployer",
+  "version": "0.0.1",
+  "description": "A tool to do rolling zero downtime deployments with the Rackspace Cloud and Chef",
+  "main": "lib/stack-deployer.js",
+  "bin": "bin/stack-deployer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:erulabs/stack-deployer"
+  },
+  "author": "Seandon Mooy <seandon.mooy@gmail.com> (http://erulabs.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erulabs/stack-deployer/issues"
+  },
+  "homepage": "https://github.com/erulabs/stack-deployer",
+  "dependencies": {
+    "commander": "^2.3.0",
+    "control": "^0.2.3",
+    "pkgcloud": "^0.9.6",
+    "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-jshint": "^1.8.4",
+    "gulp-util": "^3.0.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}
